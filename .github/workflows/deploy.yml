@@ -11,7 +11,7 @@ on:
     branches: ["main"]
     paths:
       - "my-app/**"
-      - ".github/workflows/nextjs.yml"
+      - ".github/workflows/deploy.yml"
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
