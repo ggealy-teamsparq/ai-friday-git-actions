@@ -1,0 +1,48 @@
+name: Feature request
+description: Suggest an improvement or new capability
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: Search existing issues first. Add a Figma or other design link if one is available.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or user need
+      description: What are you trying to do, and what is difficult or missing?
+      placeholder: As a ..., I want ..., so that ...
+    validations:
+      required: true
+  - type: textarea
+    id: proposed_solution
+    attributes:
+      label: Proposed solution
+      description: Describe the behavior you would like. Avoid prescribing implementation unless it matters.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance_criteria
+    attributes:
+      label: Acceptance criteria
+      description: List observable outcomes that will show the feature is complete.
+      placeholder: |
+        - [ ] Given ..., when ..., then ...
+        - [ ] ...
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: What other solutions have you considered?
+    validations:
+      required: false
+  - type: input
+    id: design_reference
+    attributes:
+      label: Design reference (optional)
+      description: Link to Figma, screenshots, or other relevant design material.
+      placeholder: https://www.figma.com/design/...
+    validations:
+      required: false
