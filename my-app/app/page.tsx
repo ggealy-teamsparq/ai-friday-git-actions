@@ -3,7 +3,7 @@ import Link from "next/link";
 import WelcomeStar from "./welcome-star";
 
 export default function Home() {
-  const assetPath = process.env.GITHUB_ACTIONS === "true" ? "/next-demo" : "";
+  const assetPath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
 
   return (
     <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
