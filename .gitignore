@@ -1,2 +1,5 @@
 # Local superpowers brainstorm, design and log notes
 .superpowers/
+
+# Personal Claude Code settings (each person keeps their own)
+.claude/settings.local.json
